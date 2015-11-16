@@ -2,7 +2,7 @@
  * Google Play Store Crawler
  * @Author	Mandar Darwatkar
  * @Institution University of California, Riverside
- * @Date	10/29/2015
+ * @Date	11/06/2015
  * @Input	cycle		args[0] - crawl cycle
  * 			seedFile	args[1] - File containing seed to be crawled
  * 			username	args[2] - Database username
