@@ -1,5 +1,5 @@
-GooglePlayCrawler1
-------------------
+GooglePlayCrawler1.java
+-----------------------
 Objective:
 	GooglePlayCrawler1 crawls and stores apps from GooglPlay store. 
 	It also includes text appearnig in permission window of app.
@@ -33,7 +33,7 @@ How to run:
 	Download PlayStoreCrawler.jar. Suggested JDK -> 1.8 or above.
 
 Database dependency:
-	GooglePlayCrawler1.java stores fetch app URLs and HTML pages in MySQL Database 
+	GooglePlayCrawler1.java stores fetched app URLs and HTML pages in MySQL Database 
 	having following schema:
 	
 	APPSTORE.APPRAW

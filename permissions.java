@@ -1,3 +1,14 @@
+/**
+ * Google Play Store Crawler
+ * @Author1 Samarth Patel
+ * @Author2	Mandar Darwatkar
+ * @Institution University of California, Riverside
+ * @Date	12/12/2015
+ * @Input
+ * 
+ * @Output	
+ */
+ 
 package Parser;
 
 import java.io.BufferedWriter;

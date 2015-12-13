@@ -1,4 +1,15 @@
-package Parser;
+/**
+ * Google Play Store Crawler
+ * @Author1 Rakesh Reddy
+ * @Author2	Mandar Darwatkar
+ * @Institution University of California, Riverside
+ * @Date	11/06/2015
+ * @Input	seed - seed URL
+ * 			 
+ * @Output	
+ */
+ 
+ package Parser;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -226,10 +237,8 @@ public class ReviewsCrawler implements Runnable{
 
 	public static void main(String[] args) {
 		
-		//System.setProperty("webdriver.chrome.driver", "C:\\Education\\4th Quarter\\Software Engineering\\PlayStoreAnalystics\\chromedriver_win32\\chromedriver.exe");
-		
 		String seed = "https://play.google.com/store/apps/collection/topselling_free";
-		final int NTHREDS = 1; //Integer.parseInt(args[0]);
+		final int NTHREDS = 1; 
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
 			ExecutorService executor = Executors.newFixedThreadPool(NTHREDS);
