@@ -1,4 +1,4 @@
-permissions.java
+ReviewCrawler.java
 ----------------
 Objective:
 	To crawl the reviews of apps and store then into appreview table.
